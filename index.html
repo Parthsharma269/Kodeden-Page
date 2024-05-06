@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kodeden-Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-logo" href="./assets/images/Title-Logo.svg"
+        class="object-fit-contain overflow-hidden m-0 p-0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black">
+    <header class="sticky">
+        <div class="container">
+            <nav class="d-flex align-items-center justify-content-center justify-content-between py-3">
+                <div class="cursor">
+                    <img src="./assets/images/Title-Logo.svg" alt="#"
+                        class="object-fit-contain overflow-hidden m-0 p-0">
+                </div>
+                <span class="menuIcon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul class="d-flex align-items-center justify-content-center text-center gap-5 m-0 p-0 smView">
+                    <li><a href="#" class="fs-16 fw-500 ff-Jost color-grey nav m-0 p-0">Home</a></li>
+                    <li><a href="#" class="fs-16 fw-500 ff-Jost color-grey nav m-0 p-0">About</a></li>
+                    <li><a href="#" class="fs-16 fw-500 ff-Jost color-grey nav m-0 p-0">Program</a></li>
+                    <li><a href="#" class="fs-16 fw-500 ff-Jost color-grey nav m-0 p-0">How&nbsp;it&nbsp;works</a>
+                    </li>
+                    <li><a href="#" class="fs-16 fw-500 ff-Jost color-grey nav m-0 p-0">FAQs</a></li>
+                    <button
+                        class="d-flex align-items-center justify-content-center text-center Get-Started fs-14 fw-900 ff-Jost color-white">Get&nbsp;Started</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="position-relative">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center flex-column text-center pt-78">
+                <h1 class="fs-36 fw-600 color-white ff-Jost header-max-w-para m-0 p-0">Start the Mini-Course: <span
+                        class="fs-36 fw-600 color-org ff-Jost header-max-w-para m-0 p-0"> Rapidly Learning New Technical
+                        Skills</span>
+                </h1>
+                <h3 class="fs-24 fw-600 color-white ff-Jost header-max-w-para_2 pt-4 m-0 p-0">Learn All The Skills You
+                    Need To Become a Software Engineer!</h3>
+            </div>
+            <img src="./assets/images/Header-img.png" alt="#"
+                class="object-fit-contain overflow-hidden w-100 mt-4 m-0 p-0">
+            <div class="d-flex align-items-center justify-content-center flex-column text-center">
+                <h3 class="fs-24 fw-600 color-white ff-Jost pt-4 m-0 p-0">Become a <span
+                        class="fs-24 fw-600 color-org ff-Jost pt-4 m-0 p-0"> Software </span> Engineer Now!</h3>
+                <p class="fs-16 fw-400 ff-Jost color-grey pt-4 m-0 p-0">No Math or Science Background Needed</p>
+                <div class="mt-4">
+                    <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                            class="object-fit-contain overflow-hidden m-0 p-0 transform" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.9983 10.999H21.9983C21.9983 5.869 18.1253 2 12.9883 2V4C17.0503 4 19.9983 6.943 19.9983 10.999Z"
+                                fill="#F4F4F4" />
+                            <path
+                                d="M13.0003 7.99999C15.1033 7.99999 16.0003 8.89699 16.0003 11H18.0003C18.0003 7.77499 16.2253 5.99999 13.0003 5.99999V7.99999ZM16.4223 13.443C16.2301 13.2683 15.9776 13.1752 15.7181 13.1832C15.4585 13.1912 15.2123 13.2998 15.0313 13.486L12.6383 15.947C12.0623 15.837 10.9043 15.476 9.71228 14.287C8.52028 13.094 8.15928 11.933 8.05228 11.361L10.5113 8.96699C10.6977 8.78612 10.8064 8.53982 10.8144 8.2802C10.8225 8.02059 10.7292 7.76804 10.5543 7.57599L6.85928 3.51299C6.68432 3.32035 6.44116 3.2035 6.18143 3.18725C5.92171 3.17101 5.66588 3.25665 5.46828 3.42599L3.29828 5.28699C3.12539 5.46051 3.0222 5.69145 3.00828 5.93599C2.99328 6.18599 2.70728 12.108 7.29928 16.702C11.3053 20.707 16.3233 21 17.7053 21C17.9073 21 18.0313 20.994 18.0643 20.992C18.3088 20.9783 18.5396 20.8747 18.7123 20.701L20.5723 18.53C20.7417 18.3325 20.8276 18.0768 20.8115 17.817C20.7954 17.5573 20.6788 17.3141 20.4863 17.139L16.4223 13.443Z"
+                                fill="#F4F4F4" />
+                        </svg></span>
+                    <button
+                        class="d-flex align-items-center justify-content-center text-center Common-btn fs-18 fw-900 ff-Jost color-white pl-70">Book&nbsp;a&nbsp;Call&nbsp;NOW</button>
+                </div>
+            </div>
+            <div class="transform_7">
+                <div class="d-flex align-items-center justify-content-between">
+                    <img src="./assets/images/Vadio-icon-left.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-25 cursor py-3 m-0 p-0">
+                    <img src="./assets/images/Vadio-icon-right.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-10 cursor py-3 m-0 p-0">
+                </div>
+            </div>
+            <div class="icon_box d-flex align-items-center justify-content-center gap-4 transform_9">
+                <img src="./assets/images/Twitter.png" alt="#"
+                    class="object-fit-contain overflow-hidden m-0 p-0 rotate_svg cursor">
+                <img src="./assets/images/Instagram.png" alt="#"
+                    class="object-fit-contain overflow-hidden m-0 p-0 rotate_svg cursor">
+                <img src="./assets/images/Telegram.png" alt="#"
+                    class="object-fit-contain overflow-hidden m-0 p-0 rotate_svg cursor">
+                <img src="./assets/images/IN.png" alt="#"
+                    class="object-fit-contain overflow-hidden m-0 p-0 rotate_svg cursor">
+            </div>
+        </div>
+        <div class="linear-gradient transform_6">
+            <img src="./assets/images/timeline.png" alt="#"
+                class="object-fit-contain overflow-hidden transform_8 vw-66 cursor m-0 p-0">
+        </div>
+        <img src="./assets/images/Ellipse-header-img.png" alt="#"
+            class="object-fit-contain overflow-hidden Ellipse-header d-lg-n m-0 p-0">
+    </section>
+    <section class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <h2 class="fs-50 fw-500 color-white ff-Jost s-2-para-max-w pt-5 m-0 p-0">What is KodeDen's <span
+                            class="fs-50 fw-500 color-org ff-Jost pt-5 m-0 p-0"> 6-Month </span> Software Engineering
+                        Course?</h2>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;With 6-figure
+                        salaries, unlimited PTO, and the flexibility to work anywhere in the world—(or</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;simply pick your
+                        kids up from school), you want in.</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;But who has $25k+
+                        to drop on a bootcamp?</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;Or semesters of
+                        free time to dedicate to going back to school?</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;Or YEARS to go
+                        through the trial and error involved in teaching yourself?</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;Heck, most people
+                        don’t even know where to start.</h6>
+                    <h6 class="fs-16 fw-400 color-grey ff-Jost s-2-para-2-max-w pt-3 m-0 p-0">.&nbsp;If that's you,
+                        you’ve been dreaming of a high-paying tech career but paralyzed when it comes time to take
+                        action.</h6>
+                    <h6 class="fs-16 fw-600 color-org ff-Jost pt-3 m-0 p-0">I want to Start My Software Engineering
+                        Journey!</h6>
+                    <div class="mt-4">
+                        <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                class="object-fit-contain overflow-hidden m-0 p-0 transform_1" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9983 10.999H21.9983C21.9983 5.869 18.1253 2 12.9883 2V4C17.0503 4 19.9983 6.943 19.9983 10.999Z"
+                                    fill="#F4F4F4" />
+                                <path
+                                    d="M13.0003 7.99999C15.1033 7.99999 16.0003 8.89699 16.0003 11H18.0003C18.0003 7.77499 16.2253 5.99999 13.0003 5.99999V7.99999ZM16.4223 13.443C16.2301 13.2683 15.9776 13.1752 15.7181 13.1832C15.4585 13.1912 15.2123 13.2998 15.0313 13.486L12.6383 15.947C12.0623 15.837 10.9043 15.476 9.71228 14.287C8.52028 13.094 8.15928 11.933 8.05228 11.361L10.5113 8.96699C10.6977 8.78612 10.8064 8.53982 10.8144 8.2802C10.8225 8.02059 10.7292 7.76804 10.5543 7.57599L6.85928 3.51299C6.68432 3.32035 6.44116 3.2035 6.18143 3.18725C5.92171 3.17101 5.66588 3.25665 5.46828 3.42599L3.29828 5.28699C3.12539 5.46051 3.0222 5.69145 3.00828 5.93599C2.99328 6.18599 2.70728 12.108 7.29928 16.702C11.3053 20.707 16.3233 21 17.7053 21C17.9073 21 18.0313 20.994 18.0643 20.992C18.3088 20.9783 18.5396 20.8747 18.7123 20.701L20.5723 18.53C20.7417 18.3325 20.8276 18.0768 20.8115 17.817C20.7954 17.5573 20.6788 17.3141 20.4863 17.139L16.4223 13.443Z"
+                                    fill="#F4F4F4" />
+                            </svg></span>
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center Common-btn fs-18 fw-900 ff-Jost color-white pl-45">Book&nbsp;a&nbsp;Call&nbsp;NOW</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-20">
+                    <img src="./assets/images/S-2-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 m-0 p-0">
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/Ellipse-S-2-img.png" alt="#"
+            class="object-fit-contain overflow-hidden Ellipse-S-2 d-lg-n m-0 p-0">
+    </section>
+    <section class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center flex-column text-center">
+                    <h3 class="fs-50 fw-500 ff-Jost color-white s-3-para-max-w m-0 p-0">“From Confused to Coder”:
+                        Kodeden's Exclusive 6-Month <span class="fs-50 fw-500 ff-Jost color-org s-3-para-max-w m-0 p-0">
+                            Software Engineering </span> Course</h3>
+                    <h6 class="fs-16 fw-400 ff-Jost color-light-white pt-4 m-0 p-0">Through twice-weekly live lectures
+                        and at-home exercises, you’ll:</h6>
+                    <h6 class="fs-16 fw-400 ff-Jost color-grey s-3-para-2-max-w pt-4 m-0 p-0">Learn everything you need
+                        to know to break into tech from senior engineers with experience at Apple, Amazon, and the DOD.
+                    </h6>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center justify-space-between">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box-1 mt-88">
+                        <div class="pt-96">
+                            <p class="fs-30 fw-600 ff-Jost color-grey m-0 p-0">01</p>
+                            <div class="d-flex flex-column pt-2">
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Master</p>
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Full-Stack Coding Skills</p>
+                            </div>
+                            <img src="./assets/images/Box-1-img.png" alt="#"
+                                class="object-fit-contain overflow-hidden transform_2 m-0 p-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box-1 mt-88">
+                        <div class="pt-96">
+                            <p class="fs-30 fw-600 ff-Jost color-grey m-0 p-0">02</p>
+                            <div class="pt-2">
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Build a </p>
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Standout Portfolio</p>
+                            </div>
+                            <img src="./assets/images/Box-1-img-2.png" alt="#"
+                                class="object-fit-contain overflow-hidden transform_3 m-0 p-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="box-1 mt-88">
+                        <div class="pt-96">
+                            <p class="fs-30 fw-600 ff-Jost color-grey m-0 p-0">03</p>
+                            <div class="pt-2">
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Launch</p>
+                                <p class="fs-18 fw-700 ff-Jost color-white m-0 p-0">Your Tech Career</p>
+                            </div>
+                            <img src="./assets/images/Box-1-img-3.png" alt="#"
+                                class="object-fit-contain overflow-hidden transform_2 m-0 p-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/Ellipse-S-3-img.png" alt="#"
+            class="object-fit-contain overflow-hidden Ellipse-S-3 d-lg-n m-0 p-0">
+    </section>
+    <section class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <img src="./assets/images/S-4-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 m-0 p-0">
+                </div>
+                <div class="col-lg-7 col-12 pt-96 pl-74">
+                    <h3 class="fs-50 fw-500 ff-Jost color-white s-4-para-max-w m-0 p-0">Are You A Good Fit For Our
+                        Program?</h3>
+                    <h6 class="fs-16 fw-400 ff-Jost color-light-white pt-4 m-0 p-0">About Who The Program is For</h6>
+                    <h6 class="fs-16 fw-600 ff-Jost color-org pt-4 m-0 p-0">Our 6-Month Software Engeering Course is for
+                        individuals that...</h6>
+                    <h6 class="fs-16 fw-400 ff-Jost color-grey s-4-para-2-max-w pt-4 m-0 p-0">Want to take action now
+                        but don't have years to waste in university Are extremely motivated and want to succeed Have
+                        dreamed of becoming a software engineer but don't have hundreds of thousands of dollars lying
+                        around</h6>
+                    <h6 class="fs-16 fw-600 ff-Jost color-org pt-4 m-0 p-0">It isn't for...</h6>
+                    <h6 class="fs-16 fw-400 ff-Jost color-grey s-4-para-3-max-w pt-4 m-0 p-0">People that aren't
+                        self-starters People that don't have a sense of urgency to become a software engineeer People
+                        that aren't serious about fulfilling their dream</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-100 position-relative">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center flex-column text-center">
+                <h3 class="fs-50 fw-500 ff-Jost color-white m-0 p-0">What our <span
+                        class="fs-50 fw-500 ff-Jost color-org m-0 p-0"> students </span> are saying</h3>
+            </div>
+            <div class="py-100">
+                <div class="Slick-slider">
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">Ross O’Rourke
+                            Founder, iC-1 Solutions. CEO Agile Onboarding</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">Vitae
+                            elit dapibus facilisis magna. Sem amet sem ullamcorper augue magna egestas sit tempus, cras.
+                            Mauris gravida elit eget mi et vitae viverra duis eget. Aliquam, quisque gravida est pretium
+                            suscipit vel. Non blandit eget tortor netus pellentesque mauris, diam.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-1.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Ross O’Rourke</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Ross O’Rourke</p>
+                            </div>
+                            <div class="ml-24">
+                                <img src="./assets/images/Slick-slider-img-4.png" alt="#"
+                                    class="object-fit-contain overflow-hidden m-0 p-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">“Luke
+                            O’Malley Tech Lead Agile Onboarding.”</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">I highly
+                            recommend kody Doherty. I have had the pleasure of working with him on variety of software
+                            projects over the past three years and his guidance has been intergral to my personal
+                            success. He is a driven, organized engineer who develops inspiring relationships with his
+                            students.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-2.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Luke O’Malley</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Luke O’Malley</p>
+                            </div>
+                            <div class="ml-24">
+                                <img src="./assets/images/Slick-slider-img-4.png" alt="#"
+                                    class="object-fit-contain overflow-hidden m-0 p-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">Leslie Sage
+                            Director of Data Science at DevResults</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">I had the
+                            pleasure of working with Kolton in 2019. In a team of a dozen people, Kolton stood out for
+                            his curiosity and drive. He executed ambitious projects with efficiency and attention to
+                            detail. He executed ambitious projects with efficiency and attention to detail.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-3.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Leslie Sage</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Leslie Sage</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">Ross O’Rourke
+                            Founder, iC-1 Solutions. CEO Agile Onboarding</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">Vitae
+                            elit dapibus facilisis magna. Sem amet sem ullamcorper augue magna egestas sit tempus, cras.
+                            Mauris gravida elit eget mi et vitae viverra duis eget. Aliquam, quisque gravida est pretium
+                            suscipit vel. Non blandit eget tortor netus pellentesque mauris, diam.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-1.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Ross O’Rourke</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Ross O’Rourke</p>
+                            </div>
+                            <div class="ml-24">
+                                <img src="./assets/images/Slick-slider-img-4.png" alt="#"
+                                    class="object-fit-contain overflow-hidden m-0 p-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">“Luke
+                            O’Malley Tech Lead Agile Onboarding.”</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">I highly
+                            recommend kody Doherty. I have had the pleasure of working with him on variety of software
+                            projects over the past three years and his guidance has been intergral to my personal
+                            success. He is a driven, organized engineer who develops inspiring relationships with his
+                            students.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-2.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Luke O’Malley</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Luke O’Malley</p>
+                            </div>
+                            <div class="ml-24">
+                                <img src="./assets/images/Slick-slider-img-4.png" alt="#"
+                                    class="object-fit-contain overflow-hidden m-0 p-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box ml-14">
+                        <p class="fs-24 fw-400 ff-Jost color-white slick-slider-card-para-1-max-w m-0 p-0">Leslie Sage
+                            Director of Data Science at DevResults</p>
+                        <p class="fs-16 fw-400 ff-Jost color-grey slick-slider-card-para-2-max-w pt-4 m-0 p-0">I had the
+                            pleasure of working with Kolton in 2019. In a team of a dozen people, Kolton stood out for
+                            his curiosity and drive. He executed ambitious projects with efficiency and attention to
+                            detail. He executed ambitious projects with efficiency and attention to detail.</p>
+                        <p class="fs-16 fw-600 ff-Jost color-white pt-4 m-0 p-0">Read More...</p>
+                        <div class="d-flex align-items-center pt-4 gap-3">
+                            <img src="./assets/images/Slick-slider-img-3.png" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-20 fw-400 color-white ff-Jost m-0 p-0">Leslie Sage</p>
+                                <p class="fs-14 fw-400 color-grey ff-Jost m-0 p-0">@Leslie Sage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="prev position-absolute">
+                    <span class="d-flex align-items-center justify-content-center"><svg width="10" height="18"
+                            viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.79922 3.0001L3.79922 9.0001L9.79922 15.0001L8.59922 17.4001L0.199219 9.0001L8.59922 0.600098L9.79922 3.0001Z"
+                                fill="#F4F4F4" />
+                        </svg></span>
+                </div>
+                <div class="next position-absolute">
+                    <span class="d-flex align-items-center justify-content-center"><svg width="10" height="18"
+                            viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.200781 3.0001L6.20078 9.0001L0.200781 15.0001L1.40078 17.4001L9.80078 9.0001L1.40078 0.600098L0.200781 3.0001Z"
+                                fill="#F4F4F4" />
+                        </svg></span>
+                </div>
+            </div>
+            <div class="mt-4">
+                <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                        class="object-fit-contain overflow-hidden m-0 p-0 transform_4" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.9983 10.999H21.9983C21.9983 5.869 18.1253 2 12.9883 2V4C17.0503 4 19.9983 6.943 19.9983 10.999Z"
+                            fill="#F4F4F4" />
+                        <path
+                            d="M13.0003 7.99999C15.1033 7.99999 16.0003 8.89699 16.0003 11H18.0003C18.0003 7.77499 16.2253 5.99999 13.0003 5.99999V7.99999ZM16.4223 13.443C16.2301 13.2683 15.9776 13.1752 15.7181 13.1832C15.4585 13.1912 15.2123 13.2998 15.0313 13.486L12.6383 15.947C12.0623 15.837 10.9043 15.476 9.71228 14.287C8.52028 13.094 8.15928 11.933 8.05228 11.361L10.5113 8.96699C10.6977 8.78612 10.8064 8.53982 10.8144 8.2802C10.8225 8.02059 10.7292 7.76804 10.5543 7.57599L6.85928 3.51299C6.68432 3.32035 6.44116 3.2035 6.18143 3.18725C5.92171 3.17101 5.66588 3.25665 5.46828 3.42599L3.29828 5.28699C3.12539 5.46051 3.0222 5.69145 3.00828 5.93599C2.99328 6.18599 2.70728 12.108 7.29928 16.702C11.3053 20.707 16.3233 21 17.7053 21C17.9073 21 18.0313 20.994 18.0643 20.992C18.3088 20.9783 18.5396 20.8747 18.7123 20.701L20.5723 18.53C20.7417 18.3325 20.8276 18.0768 20.8115 17.817C20.7954 17.5573 20.6788 17.3141 20.4863 17.139L16.4223 13.443Z"
+                            fill="#F4F4F4" />
+                    </svg></span>
+                <div class="d-flex align-items-center justify-content-center text-center">
+                    <button
+                        class="d-flex align-items-center justify-content-center text-center Common-btn fs-18 fw-900 ff-Jost color-white pl-70">Book&nbsp;a&nbsp;Call&nbsp;NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h3 class="fs-50 fw-500 ff-Jost color-white m-0 p-0">Our Guarantee</h3>
+                    <h5 class="fs-24 fw-400 ff-Jost color-grey s-5-para-max-w pt-4 m-0 p-0">If you decide coding isn’t
+                        right for you within 15 days of starting the program, we’ll give you your money back.</h5>
+                    <h6 class="fs-16 fw-600 ff-Jost color-org pt-4 m-0 p-0">I want to become a software engineer in 6
+                        months!</h6>
+                    <div class="mt-4">
+                        <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                class="object-fit-contain overflow-hidden m-0 p-0 transform_5" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.9983 10.999H21.9983C21.9983 5.869 18.1253 2 12.9883 2V4C17.0503 4 19.9983 6.943 19.9983 10.999Z"
+                                    fill="#F4F4F4" />
+                                <path
+                                    d="M13.0003 7.99999C15.1033 7.99999 16.0003 8.89699 16.0003 11H18.0003C18.0003 7.77499 16.2253 5.99999 13.0003 5.99999V7.99999ZM16.4223 13.443C16.2301 13.2683 15.9776 13.1752 15.7181 13.1832C15.4585 13.1912 15.2123 13.2998 15.0313 13.486L12.6383 15.947C12.0623 15.837 10.9043 15.476 9.71228 14.287C8.52028 13.094 8.15928 11.933 8.05228 11.361L10.5113 8.96699C10.6977 8.78612 10.8064 8.53982 10.8144 8.2802C10.8225 8.02059 10.7292 7.76804 10.5543 7.57599L6.85928 3.51299C6.68432 3.32035 6.44116 3.2035 6.18143 3.18725C5.92171 3.17101 5.66588 3.25665 5.46828 3.42599L3.29828 5.28699C3.12539 5.46051 3.0222 5.69145 3.00828 5.93599C2.99328 6.18599 2.70728 12.108 7.29928 16.702C11.3053 20.707 16.3233 21 17.7053 21C17.9073 21 18.0313 20.994 18.0643 20.992C18.3088 20.9783 18.5396 20.8747 18.7123 20.701L20.5723 18.53C20.7417 18.3325 20.8276 18.0768 20.8115 17.817C20.7954 17.5573 20.6788 17.3141 20.4863 17.139L16.4223 13.443Z"
+                                    fill="#F4F4F4" />
+                            </svg></span>
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center Common-btn fs-18 fw-900 ff-Jost color-white pl-70">Book&nbsp;a&nbsp;Call&nbsp;NOW</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mt-lg-20 w-lg-45">
+                    <img src="./assets/images/S-5-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 m-0 p-0">
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/Ellipse-S-4-img.png" alt="#"
+            class="object-fit-contain overflow-hidden Ellipse-S-4 d-lg-n m-0 p-0">
+    </section>
+    <section class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center text-center">
+                    <h3 class="fs-50 fw-500 ff-Jost color-white m-0 p-0">Who Are <span
+                            class="fs-50 fw-500 ff-Jost color-org m-0 p-0"> We?</span></h3>
+                </div>
+                <div class="col-lg-5 col-12 mt-xl-7">
+                    <img src="./assets/images/S-6-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 m-0 p-0">
+                </div>
+                <div class="col-lg-7 col-12 pl-100 mt-xl-7">
+                    <h6 class="fs-14 fw-400 ff-Jost color-light-white m-0 p-0">MEET YOUR INSTRUCTORS</h6>
+                    <h6 class="fs-30 fw-500 ff-Jost color-white s-6-para-max-w pt-4 m-0 p-0">Hi, We’re Kody Doherty and
+                        Kolton Starr 👋</h6>
+                    <h6 class="fs-16 fw-400 ff-Jost color-grey s-6-para-2-max-w pt-4 m-0 p-0">And we know firsthand that
+                        building a career as a software engineer without a computer science degree is possible. We
+                        started where you are *right now*—without engineering degrees, a professional portfolio, or
+                        years of experience. Then we climbed the ranks to hold senior positions at tech titans like
+                        Amazon, Apple, and the US government. Throughout our careers, we’ve managed entire teams of
+                        engineers, directed $30 million program budgets, and built 2 successful tech startups (one that
+                        we sold). Learning to code did more than add a few impressive lines to our resumes. It literally
+                        changed our lives…</h6>
+                    <h6 class="fs-16 fw-600 ff-Jost color-org pt-4 m-0 p-0">I want to live my dream now!</h6>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/Ellipse-S-5-img.png" alt="#"
+            class="object-fit-contain overflow-hidden Ellipse-S-5 d-lg-n m-0 p-0">
+    </section>
+    <section>
+        <div class="border-top"></div>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between flex-sm-wrap py-5">
+                <div class="cursor">
+                    <img src="./assets/images/Title-Logo.svg" alt="#"
+                        class="object-fit-contain overflow-hidden m-0 p-0">
+                </div>
+                <h6 class="fs-20 fw-400 ff-Jost color-white py-4 m-0 p-0">Privacy Policy | Terms of Service | Cookie
+                    Policy
+                </h6>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no--wreferrer">
+        </script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
