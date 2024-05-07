@@ -128,8 +128,8 @@
     width: 10%;
 }
 
-.vw-66 {
-    width: 66vw !important;
+.vw-49 {
+    width: 49vw !important;
 }
 
 .sticky {
@@ -172,48 +172,52 @@ nav {
 }
 
 .transform_6 {
-    transform: translate(10px, -375px);
+    transform: translate(10px, -425px);
 }
 
 .transform_7 {
-    transform: translate(-5px, -300px);
+    transform: translate(164px, -300px);
 }
 
 .transform_8 {
-    transform: translate(286px, -70px);
+    transform: translate(456px, -24px);
 }
 
 .transform_9 {
-    transform: translate(-390%, 789%);
+    transform: translate(-316%, 789%);
+}
+
+.transform_10 {
+    transform: translate(-167px, -300px);
 }
 
 .Ellipse-header {
     position: absolute;
-    top: 17%;
-    left: 83.9%;
+    top: 19%;
+    left: 76.9%;
 }
 
 .Ellipse-S-2 {
     position: absolute;
-    top: 186%;
+    top: 166%;
     left: 10%;
 }
 
 .Ellipse-S-3 {
     position: absolute;
-    top: 259%;
+    top: 230%;
     left: 82%;
 }
 
 .Ellipse-S-4 {
     position: absolute;
-    top: 435%;
-    left: 13%;
+    top: 412%;
+    left: 10%;
 }
 
 .Ellipse-S-5 {
     position: absolute;
-    top: 565%;
+    top: 487%;
     left: 75%;
 }
 
@@ -325,6 +329,46 @@ nav {
     width: 355px !important;
 }
 
+.H-img-m-w {
+    max-width: 996px;
+}
+
+.timeline-m-w {
+    max-width: 955px;
+}
+
+.S-2-img-m-w {
+    max-width: 461px;
+}
+
+.S-4-img-m-w {
+    max-width: 488px;
+}
+
+.S-5-img {
+    max-width: 386px;
+}
+
+.S-6-img {
+    max-width: 474.82px;
+}
+
+.Box-1-img-m-w {
+    max-width: 132.89px;
+}
+
+.Slick-slider-img-m-w {
+    max-width: 52.62px;
+}
+
+.Vadio-icon-left {
+    max-width: 308px;
+}
+
+.Vadio-icon-right {
+    max-width: 136.18px;
+}
+
 .border-top {
     border-top: 1px solid #535050;
 }
@@ -339,6 +383,12 @@ nav {
     background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
 }
 
+.Get-Started:hover {
+    color: #ffffff;
+    border: 2px solid #ff4500;
+    background: linear-gradient(146.43deg, #000000 1.77%, #000000 62.74%);
+}
+
 .Common-btn {
     width: 266px;
     height: 56px;
@@ -347,6 +397,12 @@ nav {
     border-radius: 2px;
     padding: 12px 24px 12px 24px;
     background: linear-gradient(146.43deg, #FF2801 1.77%, #FF6B0A 62.74%);
+}
+
+.Common-btn:hover {
+    color: #ffffff;
+    border: 2px solid #ff4500;
+    background: linear-gradient(146.43deg, #000000 1.77%, #000000 62.74%);
 }
 
 .box-1 {
@@ -418,14 +474,14 @@ nav {
 
 @media (max-width:1440px) {
     .transform_8 {
-        transform: translate(46px, -75px);
+        transform: translate(203px, -23px);
     }
 
     .transform_9 {
         transform: translate(-390%, 317%);
     }
 
-    .vw-66 {
+    .vw-49 {
         width: 88vw !important;
     }
 
@@ -434,8 +490,8 @@ nav {
     }
 
     .Ellipse-header {
-        top: 15%;
-        left: 92%;
+        top: 19%;
+        left: 86%;
     }
 
     .Ellipse-S-2 {
@@ -472,8 +528,12 @@ nav {
         --fs-50: 33px;
     }
 
-    .vw-66 {
+    .vw-49 {
         width: 89vw !important;
+    }
+
+    .transform_4 {
+        transform: translate(375px, 40px);
     }
 
     .transform_8 {
@@ -497,27 +557,27 @@ nav {
     }
 
     .Ellipse-header {
-        top: 15%;
+        top: 18%;
         left: 89%;
     }
 
     .Ellipse-S-2 {
-        top: 344%;
+        top: 311%;
         left: 0%;
     }
 
     .Ellipse-S-3 {
-        top: 506%;
+        top: 455%;
         left: 89%;
     }
 
     .Ellipse-S-4 {
-        top: 813%;
+        top: 748%;
         left: 1%;
     }
 
     .Ellipse-S-5 {
-        top: 1020%;
+        top: 954%;
         left: 89%;
     }
 }
@@ -543,8 +603,16 @@ nav {
         left: 91%;
     }
 
+    .transform_7 {
+        transform: translate(-3px, -300px);
+    }
+
     .transform_9 {
         transform: translate(-307%, 275%);
+    }
+
+    .transform_10 {
+        transform: translate(-12px, -300px);
     }
 }
 
@@ -625,7 +693,7 @@ nav {
         margin-left: 20%;
     }
 
-    .vw-66 {
+    .vw-49 {
         width: 92vw !important;
     }
 
@@ -660,7 +728,7 @@ nav {
     }
 
     .transform_8 {
-        transform: translate(5px, -9px);
+        transform: translate(5px, -32px);
     }
 
     .prev {
@@ -675,7 +743,7 @@ nav {
         margin-left: 22%;
     }
 
-    .vw-66 {
+    .vw-49 {
         width: 88vw !important;
     }
 }
@@ -693,6 +761,10 @@ nav {
         display: none;
     }
 
+    .vw-49 {
+        width: 85vw !important;
+    }
+
     .transform_2 {
         transform: translate(86px, -215px);
     }
@@ -702,15 +774,19 @@ nav {
     }
 
     .transform_6 {
-        transform: translate(10px, -353px);
+        transform: translate(10px, -320px);
     }
 
     .transform_7 {
-        transform: translate(0px, -230px);
+        transform: translate(7px, -252px);
     }
 
     .transform_9 {
         transform: translate(40%, 200%);
+    }
+
+    .transform_10 {
+        transform: translate(-12px, -254px);
     }
 }
 
@@ -730,6 +806,10 @@ nav {
         padding-left: 12px !important;
     }
 
+    .vw-49 {
+        width: 86vw !important;
+    }
+
     .transform_2 {
         transform: translate(133px, -215px);
     }
@@ -742,8 +822,16 @@ nav {
         transform: translate(49px, 40px);
     }
 
+    .transform_7 {
+        transform: translate(7px, -229px);
+    }
+
     .transform_8 {
-        transform: translate(-20px, 5px);
+        transform: translate(-14px, -29px);
+    }
+
+    .transform_10 {
+        transform: translate(-12px, -231px);
     }
 
     .flex-sm-wrap {
