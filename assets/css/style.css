@@ -34,7 +34,6 @@
     --color-light-white: #E4E4E4;
 
     --ff-Jost: "Jost", sans-serif;
-    --ff-Helvetica: "Helvetica", sans-serif;
 }
 
 .color-grey {
@@ -55,10 +54,6 @@
 
 .ff-Jost {
     font-family: "Jost", sans-serif;
-}
-
-.ff-Helvetica {
-    font-family: "Helvetica", sans-serif;
 }
 
 .fs-14 {
