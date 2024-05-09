@@ -8,6 +8,8 @@ menuIcon.addEventListener("click", () => {
     document.querySelector("body").classList.toggle("overflow-hidden");
 })
 
+// Back-to-top
+
 let mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
 
@@ -56,10 +58,11 @@ $('.Slick-slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 576,
             settings: {
                 dots: false,
-                arrows: true,
+                autoplay: true,
+                arrows: false,
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -69,7 +72,8 @@ $('.Slick-slider').slick({
             breakpoint: 320,
             settings: {
                 dots: false,
-                arrows: true,
+                autoplay: true,
+                arrows: false,
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,

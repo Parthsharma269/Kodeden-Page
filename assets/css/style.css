@@ -136,15 +136,7 @@ nav {
     top: 0;
     z-index: 23;
     position: sticky;
-}
-
-.nav-bg {
-    background: #00000069;
-    backdrop-filter: blur(7px);
-}
-
-.blur-10 {
-    filter: blur(10px);
+    background-color: #000000;
 }
 
 .transform {
@@ -279,7 +271,7 @@ nav {
 }
 
 .s-2-para-max-w {
-    width: 766px !important;
+    max-width: 766px !important;
 }
 
 .s-2-para-2-max-w {
@@ -423,10 +415,10 @@ nav {
 }
 
 .slider-box {
-    width: 364px !important;
-    height: 389px !important;
     padding: 12px;
     border-radius: 2px;
+    width: 364px !important;
+    height: 389px !important;
     border: 1px solid #E4E4E4;
 }
 
@@ -498,7 +490,7 @@ nav {
     }
 
     .transform_9 {
-        transform: translate(-390%, 317%);
+        transform: translate(-322%, 317%);
     }
 
     .vw-49 {
@@ -515,22 +507,22 @@ nav {
     }
 
     .Ellipse-S-2 {
-        top: 194%;
+        top: 173%;
         left: 0%;
     }
 
     .Ellipse-S-3 {
-        top: 266%;
+        top: 237%;
         left: 89%;
     }
 
     .Ellipse-S-4 {
-        top: 440%;
+        top: 389%;
         left: 1%;
     }
 
     .Ellipse-S-5 {
-        top: 577%;
+        top: 494%;
         left: 83%;
     }
 
@@ -622,17 +614,22 @@ nav {
     }
 
     .Ellipse-S-2 {
-        top: 187%;
+        top: 163%;
         left: 0%;
     }
 
     .Ellipse-S-3 {
-        top: 273%;
+        top: 233%;
         left: 91%;
     }
 
+    .Ellipse-S-4 {
+        top: 369%;
+        left: 1%;
+    }
+
     .Ellipse-S-5 {
-        top: 555%;
+        top: 469%;
         left: 91%;
     }
 
@@ -782,6 +779,14 @@ nav {
 }
 
 @media (max-width:576px) {
+    :root {
+        --fs-50: 18px;
+    }
+
+    .slider-box {
+        width: 100% !important;
+    }
+
     .ml-14 {
         margin-left: 0;
     }
@@ -815,7 +820,7 @@ nav {
     }
 
     .transform_9 {
-        transform: translate(40%, 200%);
+        transform: translate(29%, 200%);
     }
 
     .transform_10 {
@@ -828,7 +833,7 @@ nav {
         --fs-24: 17px;
         --fs-30: 28px;
         --fs-36: 13px;
-        --fs-50: 21px;
+        --fs-50: 18px;
     }
 
     .pl-74 {
