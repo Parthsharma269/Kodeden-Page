@@ -6,6 +6,7 @@
     list-style-type: none !important;
     text-decoration: none !important;
     box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
     transition: all 250ms linear !important;
     /* border: 1px solid red !important; */
 }
@@ -132,15 +133,19 @@
     width: 49vw !important;
 }
 
+nav {
+    overflow: hidden;
+}
+
 .sticky {
     top: 0;
     z-index: 23;
     position: sticky;
-    background-color: #000000;
 }
 
-nav {
-    overflow: hidden;
+.nav-bg {
+    background: #00000069;
+    backdrop-filter: blur(7px);
 }
 
 .blur-10 {
@@ -267,7 +272,7 @@ nav {
 }
 
 .nav:hover {
-    -webkit-text-stroke: 1px #FF2801;
+    -webkit-text-stroke: 1px #FF3E04;
 }
 
 .header-max-w-para {
