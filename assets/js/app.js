@@ -12,7 +12,6 @@ menuIcon.addEventListener("click", () => {
 
 let mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
-
 function scrollFunction() {
     if (document.body.scrollTop > 755 || document.documentElement.scrollTop > 755) {
         mybutton.style.display = "block";
